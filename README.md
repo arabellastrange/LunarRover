@@ -1,2 +1,2 @@
 # LunarRover
-Lunar Rover for UKSEDS competion
+Documentaion in folder docs
