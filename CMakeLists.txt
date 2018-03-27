@@ -17,6 +17,8 @@ ADD_DEFINITIONS(${GTK3_CFLAGS_OTHER})
 
 add_executable(LunarRover main.c)
 add_executable(GTKButtonDemo GTXDemos/GTKButtonDemo.c)
+add_executable(MenuBarDemo GTXDemos/MenuBarDemo.c)
 
 # Link the target to the GTK+ libraries
 TARGET_LINK_LIBRARIES(GTKButtonDemo ${GTK3_LIBRARIES})
+TARGET_LINK_LIBRARIES(MenuBarDemo ${GTK3_LIBRARIES})
